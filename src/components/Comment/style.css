@@ -1,0 +1,21 @@
+.comment {
+  display: flex;
+}
+
+.comment:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.comment > img {
+  max-height: 28px;
+  margin-right: 10px;
+  max-width: 28px;
+}
+
+.comment div {
+  background: #eee;
+  border-radius: 20px;
+  font-size: 13px;
+  line-height: 20px;
+  padding: 10px 15px;
+}

@@ -1,0 +1,20 @@
+header {
+  background: #4a90e2;
+  padding: 20px 42px;
+}
+
+header a {
+  color: #fff;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 17px;
+  text-decoration: none;
+}
+
+header > div {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1024px;
+  margin: 0 auto;
+}
